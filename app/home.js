@@ -107,7 +107,7 @@ export default function Home() {
             >
               <TouchableWithoutFeedback onPress={ClosePopupMenuModal}>
                 <View style={styleSheet.menu}>
-                  <View style={[styleSheet.menuView]}>
+                  <View style={styleSheet.menuView}>
                     <TouchableOpacity>
                       <TouchableOpacity
                         onPress={() => {
@@ -382,6 +382,7 @@ const styleSheet = StyleSheet.create({
     borderWidth: 2,
     paddingHorizontal: 30,
     rowGap: 10,
+    backgroundColor: "#FFF",
   },
   menuItemText: {
     fontSize: 18,
